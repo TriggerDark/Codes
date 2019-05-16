@@ -1,0 +1,1116 @@
+(no author)
+Aaron Campbell
+Aaron Jorbin
+80464d93bb Bump grunt-patch-wordpress to 1.0.0
+1	1	wp-includes/version.php
+ wp-includes/version.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Adam Silverstein
+e70caa19a1 Media: Fix image cropping on touch screen devices.
+1	1	wp-admin/js/image-edit.js
+1	1	wp-admin/js/image-edit.min.js
+1	1	wp-includes/js/imgareaselect/jquery.imgareaselect.js
+1	1	wp-includes/version.php
+ wp-admin/js/image-edit.js                            | 2 +-
+ wp-admin/js/image-edit.min.js                        | 2 +-
+ wp-includes/js/imgareaselect/jquery.imgareaselect.js | 2 +-
+ wp-includes/version.php                              | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+6751be3561 Customizer menus: correct oversized viewport after dragging menu items.
+2	1	wp-admin/css/nav-menus-rtl.css
+1	1	wp-admin/css/nav-menus-rtl.min.css
+2	1	wp-admin/css/nav-menus.css
+1	1	wp-admin/css/nav-menus.min.css
+1	1	wp-includes/version.php
+ wp-admin/css/nav-menus-rtl.css     | 3 ++-
+ wp-admin/css/nav-menus-rtl.min.css | 2 +-
+ wp-admin/css/nav-menus.css         | 3 ++-
+ wp-admin/css/nav-menus.min.css     | 2 +-
+ wp-includes/version.php            | 2 +-
+ 5 files changed, 7 insertions(+), 5 deletions(-)
+aduth
+alex_t_king
+allancole
+Andrea Fercia
+d0e1b54105 Accessibility: Menus screen: Improve headings and instructions for better accessibility.
+6	3	wp-admin/nav-menus.php
+1	1	wp-includes/version.php
+ wp-admin/nav-menus.php  | 9 ++++++---
+ wp-includes/version.php | 2 +-
+ 2 files changed, 7 insertions(+), 4 deletions(-)
+127ecc530c Accessibility: Underline the links in the Plugins descriptions and update notices.
+6	0	wp-admin/css/list-tables-rtl.css
+1	1	wp-admin/css/list-tables-rtl.min.css
+6	0	wp-admin/css/list-tables.css
+1	1	wp-admin/css/list-tables.min.css
+1	1	wp-includes/version.php
+ wp-admin/css/list-tables-rtl.css     | 6 ++++++
+ wp-admin/css/list-tables-rtl.min.css | 2 +-
+ wp-admin/css/list-tables.css         | 6 ++++++
+ wp-admin/css/list-tables.min.css     | 2 +-
+ wp-includes/version.php              | 2 +-
+ 5 files changed, 15 insertions(+), 3 deletions(-)
+320a05019a Accessibility: Themes: use `aria-current` for the `Walker_Nav_Menu` current link.
+11	9	wp-includes/class-walker-nav-menu.php
+1	1	wp-includes/version.php
+ wp-includes/class-walker-nav-menu.php | 20 +++++++++++---------
+ wp-includes/version.php               |  2 +-
+ 2 files changed, 12 insertions(+), 10 deletions(-)
+48077799d9 Accessibility: Insert Link modal: Improve keyboard interaction.
+1	1	wp-includes/js/wplink.js
+1	1	wp-includes/js/wplink.min.js
+1	1	wp-includes/version.php
+ wp-includes/js/wplink.js     | 2 +-
+ wp-includes/js/wplink.min.js | 2 +-
+ wp-includes/version.php      | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+ffedf3d752 Accessibility: Widgets: Make the "Available Widgets" section operable with a keyboard.
+2	1	wp-admin/css/common-rtl.css
+1	1	wp-admin/css/common-rtl.min.css
+2	1	wp-admin/css/common.css
+1	1	wp-admin/css/common.min.css
+21	30	wp-admin/css/widgets-rtl.css
+1	1	wp-admin/css/widgets-rtl.min.css
+21	30	wp-admin/css/widgets.css
+1	1	wp-admin/css/widgets.min.css
+8	2	wp-admin/includes/widgets.php
+35	22	wp-admin/js/widgets.js
+1	1	wp-admin/js/widgets.min.js
+5	4	wp-includes/script-loader.php
+1	1	wp-includes/version.php
+ wp-admin/css/common-rtl.css      |  3 ++-
+ wp-admin/css/common-rtl.min.css  |  2 +-
+ wp-admin/css/common.css          |  3 ++-
+ wp-admin/css/common.min.css      |  2 +-
+ wp-admin/css/widgets-rtl.css     | 51 +++++++++++++++--------------------
+ wp-admin/css/widgets-rtl.min.css |  2 +-
+ wp-admin/css/widgets.css         | 51 +++++++++++++++--------------------
+ wp-admin/css/widgets.min.css     |  2 +-
+ wp-admin/includes/widgets.php    | 10 +++++--
+ wp-admin/js/widgets.js           | 57 ++++++++++++++++++++++++----------------
+ wp-admin/js/widgets.min.js       |  2 +-
+ wp-includes/script-loader.php    |  9 ++++---
+ wp-includes/version.php          |  2 +-
+ 13 files changed, 100 insertions(+), 96 deletions(-)
+e34999f4aa Accessibility: Networks and Sites: mark the New Site required form fields as required.
+15	8	wp-admin/network/site-new.php
+1	1	wp-includes/version.php
+ wp-admin/network/site-new.php | 23 +++++++++++++++--------
+ wp-includes/version.php       |  2 +-
+ 2 files changed, 16 insertions(+), 9 deletions(-)
+6a4b2a022a Accessibility: Make the Widgets screen "Enable accessibility mode" link more discoverable.
+10	0	wp-admin/css/widgets-rtl.css
+1	1	wp-admin/css/widgets-rtl.min.css
+10	0	wp-admin/css/widgets.css
+1	1	wp-admin/css/widgets.min.css
+7	14	wp-admin/includes/class-wp-screen.php
+5	0	wp-admin/widgets.php
+1	1	wp-includes/version.php
+ wp-admin/css/widgets-rtl.css          | 10 ++++++++++
+ wp-admin/css/widgets-rtl.min.css      |  2 +-
+ wp-admin/css/widgets.css              | 10 ++++++++++
+ wp-admin/css/widgets.min.css          |  2 +-
+ wp-admin/includes/class-wp-screen.php | 21 +++++++--------------
+ wp-admin/widgets.php                  |  5 +++++
+ wp-includes/version.php               |  2 +-
+ 7 files changed, 35 insertions(+), 17 deletions(-)
+9842bd6d24 Accessibility: Change the "Show / Hide dismissed updates" link to a button.
+9	0	wp-admin/css/common-rtl.css
+1	1	wp-admin/css/common-rtl.min.css
+9	0	wp-admin/css/common.css
+1	1	wp-admin/css/common.min.css
+5	6	wp-admin/update-core.php
+1	1	wp-includes/version.php
+ wp-admin/css/common-rtl.css     |  9 +++++++++
+ wp-admin/css/common-rtl.min.css |  2 +-
+ wp-admin/css/common.css         |  9 +++++++++
+ wp-admin/css/common.min.css     |  2 +-
+ wp-admin/update-core.php        | 11 +++++------
+ wp-includes/version.php         |  2 +-
+ 6 files changed, 26 insertions(+), 9 deletions(-)
+64634898c2 Accessibility: Change the media upload "Dismiss error" link to a button.
+1	1	wp-admin/async-upload.php
+1	2	wp-admin/css/media-rtl.css
+1	1	wp-admin/css/media-rtl.min.css
+1	2	wp-admin/css/media.css
+1	1	wp-admin/css/media.min.css
+1	1	wp-includes/version.php
+ wp-admin/async-upload.php      | 2 +-
+ wp-admin/css/media-rtl.css     | 3 +--
+ wp-admin/css/media-rtl.min.css | 2 +-
+ wp-admin/css/media.css         | 3 +--
+ wp-admin/css/media.min.css     | 2 +-
+ wp-includes/version.php        | 2 +-
+ 6 files changed, 6 insertions(+), 8 deletions(-)
+Andrew Nacin
+Andrew Ozz
+a4beb40d0b Privacy: add support for exporting multiple pages of personal data.
+1	0	wp-admin/admin-ajax.php
+117	0	wp-admin/includes/ajax-actions.php
+1	1	wp-includes/version.php
+ wp-admin/admin-ajax.php            |   1 +
+ wp-admin/includes/ajax-actions.php | 117 +++++++++++++++++++++++++++++++++++++
+ wp-includes/version.php            |   2 +-
+ 3 files changed, 119 insertions(+), 1 deletion(-)
+4fed9aa6bd Privacy: add functionality for exporting personal data from comments.
+101	0	wp-includes/comment.php
+1	0	wp-includes/default-filters.php
+1	1	wp-includes/version.php
+ wp-includes/comment.php         | 101 ++++++++++++++++++++++++++++++++++++++++
+ wp-includes/default-filters.php |   1 +
+ wp-includes/version.php         |   2 +-
+ 3 files changed, 103 insertions(+), 1 deletion(-)
+ba7b8cd8a0 Accessibility improvements for the Privacy Tools screen.
+58	57	wp-admin/privacy.php
+1	1	wp-includes/version.php
+ wp-admin/privacy.php    | 115 ++++++++++++++++++++++++------------------------
+ wp-includes/version.php |   2 +-
+ 2 files changed, 59 insertions(+), 58 deletions(-)
+63dd79d908 Respect the commenter decision when they have checked the checkbox to consent to cookies, and keep it checked when they reload the page or post another comment.
+2	1	wp-includes/comment-template.php
+1	1	wp-includes/version.php
+ wp-includes/comment-template.php | 3 ++-
+ wp-includes/version.php          | 2 +-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+b93dfd3571 Add Privacy Tools admin page under the Tools menu.
+1	1	wp-admin/about.php
+1	1	wp-admin/credits.php
+17	2	wp-admin/freedoms.php
+1	0	wp-admin/menu.php
+179	20	wp-admin/privacy.php
+1	1	wp-includes/version.php
+ wp-admin/about.php      |   2 +-
+ wp-admin/credits.php    |   2 +-
+ wp-admin/freedoms.php   |  19 ++++-
+ wp-admin/menu.php       |   1 +
+ wp-admin/privacy.php    | 199 +++++++++++++++++++++++++++++++++++++++++++-----
+ wp-includes/version.php |   2 +-
+ 6 files changed, 200 insertions(+), 25 deletions(-)
+791b11bc3f Add a method to confirm user requests by email. First run.
+259	4	wp-includes/user.php
+1	1	wp-includes/version.php
+47	1	wp-login.php
+ wp-includes/user.php    | 263 +++++++++++++++++++++++++++++++++++++++++++++++-
+ wp-includes/version.php |   2 +-
+ wp-login.php            |  48 ++++++++-
+ 3 files changed, 307 insertions(+), 6 deletions(-)
+8ae59374f3 Add a checkbox to the comment form so logged out users can opt-out of commenter cookies.
+5	3	wp-comments-post.php
+9	6	wp-includes/comment-template.php
+17	5	wp-includes/comment.php
+1	1	wp-includes/default-filters.php
+1	1	wp-includes/version.php
+ wp-comments-post.php             |  8 +++++---
+ wp-includes/comment-template.php | 15 +++++++++------
+ wp-includes/comment.php          | 22 +++++++++++++++++-----
+ wp-includes/default-filters.php  |  2 +-
+ wp-includes/version.php          |  2 +-
+ 5 files changed, 33 insertions(+), 16 deletions(-)
+de8936588c Add pre-save content filter to make target=_blank always secure.
+15	0	wp-includes/default-filters.php
+63	0	wp-includes/formatting.php
+1	1	wp-includes/version.php
+ wp-includes/default-filters.php | 15 ++++++++++
+ wp-includes/formatting.php      | 63 +++++++++++++++++++++++++++++++++++++++++
+ wp-includes/version.php         |  2 +-
+ 3 files changed, 79 insertions(+), 1 deletion(-)
+atimmer
+azaozz
+Boone Gorges
+35ad9e9efc Allow `LIKE` queries against the 'key' value in meta queries.
+34	15	wp-includes/class-wp-meta-query.php
+2	0	wp-includes/class-wp-query.php
+1	1	wp-includes/version.php
+ wp-includes/class-wp-meta-query.php | 49 +++++++++++++++++++++++++------------
+ wp-includes/class-wp-query.php      |  2 ++
+ wp-includes/version.php             |  2 +-
+ 3 files changed, 37 insertions(+), 16 deletions(-)
+Bot (Assets)
+Bot (Translations)
+bumpbot
+Daryl Koopersmith
+David A. Kennedy
+dd32
+42b03122b5 Plugins: Add support for plugins having an `active_installs` value larger than 1 million. WordPress.org currently supports up to 5 million, and with the growth of WordPress, it's expected that that upper bound will increase in the future.
+5	1	wp-admin/includes/class-wp-plugin-install-list-table.php
+5	1	wp-admin/includes/plugin-install.php
+1	1	wp-includes/version.php
+ wp-admin/includes/class-wp-plugin-install-list-table.php | 6 +++++-
+ wp-admin/includes/plugin-install.php                     | 6 +++++-
+ wp-includes/version.php                                  | 2 +-
+ 3 files changed, 11 insertions(+), 3 deletions(-)
+desrosj
+Dion Hulse
+42b03122b5 Plugins: Add support for plugins having an `active_installs` value larger than 1 million. WordPress.org currently supports up to 5 million, and with the growth of WordPress, it's expected that that upper bound will increase in the future.
+5	1	wp-admin/includes/class-wp-plugin-install-list-table.php
+5	1	wp-admin/includes/plugin-install.php
+1	1	wp-includes/version.php
+ wp-admin/includes/class-wp-plugin-install-list-table.php | 6 +++++-
+ wp-admin/includes/plugin-install.php                     | 6 +++++-
+ wp-includes/version.php                                  | 2 +-
+ 3 files changed, 11 insertions(+), 3 deletions(-)
+Dominik Schilling
+80c9ed8bfa Users: Don't show roles dropdown on user-edit.php if current user cannot promote user.
+1	1	wp-admin/user-edit.php
+1	1	wp-includes/version.php
+ wp-admin/user-edit.php  | 2 +-
+ wp-includes/version.php | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+61ba57abb7 Users: Use `promote_users` for role updates in `edit_user()`.
+19	10	wp-admin/includes/user.php
+1	1	wp-includes/version.php
+ wp-admin/includes/user.php | 29 +++++++++++++++++++----------
+ wp-includes/version.php    |  2 +-
+ 2 files changed, 20 insertions(+), 11 deletions(-)
+6fd9d2edcf REST API JavaScript Client: Support an empty string for `nonce` to disable sending the X-WP-Nonce header.
+4	3	wp-includes/js/wp-api.js
+1	1	wp-includes/js/wp-api.min.js
+1	1	wp-includes/version.php
+ wp-includes/js/wp-api.js     | 7 ++++---
+ wp-includes/js/wp-api.min.js | 2 +-
+ wp-includes/version.php      | 2 +-
+ 3 files changed, 6 insertions(+), 5 deletions(-)
+3138d89e1e REST API JS Client: Extend custom nonce functionality to collections.
+29	5	wp-includes/js/wp-api.js
+1	1	wp-includes/js/wp-api.min.js
+1	1	wp-includes/version.php
+ wp-includes/js/wp-api.js     | 34 +++++++++++++++++++++++++++++-----
+ wp-includes/js/wp-api.min.js |  2 +-
+ wp-includes/version.php      |  2 +-
+ 3 files changed, 31 insertions(+), 7 deletions(-)
+aaf1fc64c4 Multisite: Use a numbered placeholder in `sprintf()` for the site URL.
+1	1	wp-activate.php
+1	1	wp-includes/version.php
+ wp-activate.php         | 2 +-
+ wp-includes/version.php | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+5c291d49de Pinking shears.
+9	9	wp-admin/includes/plugin.php
+3	3	wp-includes/admin-bar.php
+3	3	wp-includes/author-template.php
+4	4	wp-includes/category-template.php
+1	1	wp-includes/class-wp-query.php
+5	5	wp-includes/comment-template.php
+3	3	wp-includes/functions.wp-scripts.php
+2	2	wp-includes/general-template.php
+3	3	wp-includes/l10n.php
+2	2	wp-includes/load.php
+2	2	wp-includes/pluggable.php
+5	5	wp-includes/post-template.php
+2	2	wp-includes/post-thumbnail-template.php
+69	69	wp-includes/query.php
+6	6	wp-includes/taxonomy.php
+1	1	wp-includes/version.php
+9	9	wp-includes/widgets.php
+7	7	wp-login.php
+ wp-admin/includes/plugin.php            |  18 ++---
+ wp-includes/admin-bar.php               |   6 +-
+ wp-includes/author-template.php         |   6 +-
+ wp-includes/category-template.php       |   8 +-
+ wp-includes/class-wp-query.php          |   2 +-
+ wp-includes/comment-template.php        |  10 +--
+ wp-includes/functions.wp-scripts.php    |   6 +-
+ wp-includes/general-template.php        |   4 +-
+ wp-includes/l10n.php                    |   6 +-
+ wp-includes/load.php                    |   4 +-
+ wp-includes/pluggable.php               |   4 +-
+ wp-includes/post-template.php           |  10 +--
+ wp-includes/post-thumbnail-template.php |   4 +-
+ wp-includes/query.php                   | 138 ++++++++++++++++----------------
+ wp-includes/taxonomy.php                |  12 +--
+ wp-includes/version.php                 |   2 +-
+ wp-includes/widgets.php                 |  18 ++---
+ wp-login.php                            |  14 ++--
+ 18 files changed, 136 insertions(+), 136 deletions(-)
+d950c75307 Import: Avoid counting an uncountable type when reading arguments passed to a script.
+3	0	wp-admin/includes/class-wp-importer.php
+1	1	wp-includes/version.php
+ wp-admin/includes/class-wp-importer.php | 3 +++
+ wp-includes/version.php                 | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+74cb5936fc Docs: Remove trailing whitespace in `wp-includes/post.php`. Built from https://develop.svn.wordpress.org/trunk@42769
+10	10	wp-includes/post.php
+1	1	wp-includes/version.php
+ wp-includes/post.php    | 20 ++++++++++----------
+ wp-includes/version.php |  2 +-
+ 2 files changed, 11 insertions(+), 11 deletions(-)
+donncha
+dougal
+Drew Jaynes
+duck_
+Ella Iseulde Van Dorpe
+emc3
+Eric Lewis
+Felix Arntz
+176a289050 Multisite: Introduce metadata for sites.
+7	0	wp-admin/includes/ms.php
+9	0	wp-admin/includes/schema.php
+7	0	wp-admin/includes/upgrade.php
+76	73	wp-includes/class-wp-site-query.php
+32	0	wp-includes/functions.php
+1	1	wp-includes/load.php
+185	8	wp-includes/ms-blogs.php
+2	2	wp-includes/version.php
+9	0	wp-includes/wp-db.php
+ wp-admin/includes/ms.php            |   7 ++
+ wp-admin/includes/schema.php        |   9 ++
+ wp-admin/includes/upgrade.php       |   7 ++
+ wp-includes/class-wp-site-query.php | 149 ++++++++++++++--------------
+ wp-includes/functions.php           |  32 ++++++
+ wp-includes/load.php                |   2 +-
+ wp-includes/ms-blogs.php            | 193 ++++++++++++++++++++++++++++++++++--
+ wp-includes/version.php             |   4 +-
+ wp-includes/wp-db.php               |   9 ++
+ 9 files changed, 328 insertions(+), 84 deletions(-)
+eda5ab56af Bootstrap: Load `formatting.php` and `meta.php` earlier in `wp-settings.php`.
+1	1	wp-includes/version.php
+2	2	wp-settings.php
+ wp-includes/version.php | 2 +-
+ wp-settings.php         | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+485984e82e Multisite: Add missing group annotations to tests included in [42833].
+1	1	wp-includes/version.php
+ wp-includes/version.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+57fd97017e Multisite: Ensure the `{$network_id}:notoptions` array is set in cache in `get_network_option()`.
+6	1	wp-includes/option.php
+1	1	wp-includes/version.php
+ wp-includes/option.php  | 7 ++++++-
+ wp-includes/version.php | 2 +-
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+ed1df81bba General: Introduce dashboard widget to inform administrators about outdated PHP versions.
+14	0	wp-admin/css/dashboard-rtl.css
+1	1	wp-admin/css/dashboard-rtl.min.css
+14	0	wp-admin/css/dashboard.css
+1	1	wp-admin/css/dashboard.min.css
+95	1	wp-admin/includes/dashboard.php
+7	0	wp-includes/capabilities.php
+1	1	wp-includes/version.php
+ wp-admin/css/dashboard-rtl.css     | 14 ++++++
+ wp-admin/css/dashboard-rtl.min.css |  2 +-
+ wp-admin/css/dashboard.css         | 14 ++++++
+ wp-admin/css/dashboard.min.css     |  2 +-
+ wp-admin/includes/dashboard.php    | 96 +++++++++++++++++++++++++++++++++++++-
+ wp-includes/capabilities.php       |  7 +++
+ wp-includes/version.php            |  2 +-
+ 7 files changed, 133 insertions(+), 4 deletions(-)
+Gary Pendergast
+Helen Hou-Sandí
+iammattthomas
+Ian Stewart
+iandstewart
+iandunn
+James Nylen
+Jeremy Felt
+89cb4caddc Multisite: Return `WP_Site` as expected in `get_active_blog_for_user()`.
+2	2	wp-includes/ms-functions.php
+1	1	wp-includes/version.php
+ wp-includes/ms-functions.php | 4 ++--
+ wp-includes/version.php      | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+b05cb5e5ed Multisite: Use case-insensitive check on email domain whitelist.
+3	2	wp-includes/ms-functions.php
+1	1	wp-includes/version.php
+ wp-includes/ms-functions.php | 5 +++--
+ wp-includes/version.php      | 2 +-
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+Joe Hoyle
+Joe McGill
+2cb76498ba Update unit test following r42839.
+1	1	wp-includes/version.php
+ wp-includes/version.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+0a02c87b48 Update Hello Dolly lyrics.
+11	12	wp-content/plugins/hello.php
+1	1	wp-includes/version.php
+ wp-content/plugins/hello.php | 23 +++++++++++------------
+ wp-includes/version.php      |  2 +-
+ 2 files changed, 12 insertions(+), 13 deletions(-)
+06ec96a7a4 Revert max-width styles on caption shortcodes.
+1	1	wp-includes/media.php
+1	1	wp-includes/version.php
+ wp-includes/media.php   | 2 +-
+ wp-includes/version.php | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+John Blackbourn
+bbcb4300a3 Docs: Correct and improve various inline documentation.
+2	4	wp-admin/includes/dashboard.php
+2	2	wp-admin/includes/taxonomy.php
+1	1	wp-admin/includes/theme.php
+1	1	wp-includes/category-template.php
+1	1	wp-includes/class-http.php
+1	1	wp-includes/class-walker-nav-menu.php
+1	1	wp-includes/class-wp-meta-query.php
+1	1	wp-includes/class-wp-metadata-lazyloader.php
+3	3	wp-includes/date.php
+1	1	wp-includes/version.php
+ wp-admin/includes/dashboard.php              | 6 ++----
+ wp-admin/includes/taxonomy.php               | 4 ++--
+ wp-admin/includes/theme.php                  | 2 +-
+ wp-includes/category-template.php            | 2 +-
+ wp-includes/class-http.php                   | 2 +-
+ wp-includes/class-walker-nav-menu.php        | 2 +-
+ wp-includes/class-wp-meta-query.php          | 2 +-
+ wp-includes/class-wp-metadata-lazyloader.php | 2 +-
+ wp-includes/date.php                         | 6 +++---
+ wp-includes/version.php                      | 2 +-
+ 10 files changed, 14 insertions(+), 16 deletions(-)
+2361ca884f Docs: Document more parameters and properties using typed array notation.
+1	1	wp-includes/class-wp-embed.php
+1	1	wp-includes/class-wp-http-ixr-client.php
+4	4	wp-includes/class-wp-network-query.php
+6	6	wp-includes/class-wp-network.php
+10	11	wp-includes/class-wp-query.php
+1	1	wp-includes/class-wp-role.php
+5	5	wp-includes/class-wp-site-query.php
+3	3	wp-includes/class-wp-taxonomy.php
+16	16	wp-includes/class-wp-term-query.php
+12	12	wp-includes/class-wp-theme.php
+1	1	wp-includes/class-wp-user-query.php
+7	7	wp-includes/class-wp-user.php
+5	5	wp-includes/class-wp.php
+3	3	wp-includes/class.wp-dependencies.php
+1	1	wp-includes/class.wp-scripts.php
+1	1	wp-includes/class.wp-styles.php
+2	2	wp-includes/comment-template.php
+13	13	wp-includes/comment.php
+8	8	wp-includes/customize/class-wp-customize-nav-menu-item-setting.php
+3	3	wp-includes/customize/class-wp-customize-nav-menu-setting.php
+2	2	wp-includes/customize/class-wp-customize-selective-refresh.php
+4	4	wp-includes/date.php
+1	1	wp-includes/embed.php
+3	4	wp-includes/functions.php
+7	7	wp-includes/l10n.php
+3	3	wp-includes/post.php
+1	1	wp-includes/version.php
+ wp-includes/class-wp-embed.php                     |  2 +-
+ wp-includes/class-wp-http-ixr-client.php           |  2 +-
+ wp-includes/class-wp-network-query.php             |  8 +++---
+ wp-includes/class-wp-network.php                   | 12 ++++----
+ wp-includes/class-wp-query.php                     | 21 +++++++-------
+ wp-includes/class-wp-role.php                      |  2 +-
+ wp-includes/class-wp-site-query.php                | 10 +++----
+ wp-includes/class-wp-taxonomy.php                  |  6 ++--
+ wp-includes/class-wp-term-query.php                | 32 +++++++++++-----------
+ wp-includes/class-wp-theme.php                     | 24 ++++++++--------
+ wp-includes/class-wp-user-query.php                |  2 +-
+ wp-includes/class-wp-user.php                      | 14 +++++-----
+ wp-includes/class-wp.php                           | 10 +++----
+ wp-includes/class.wp-dependencies.php              |  6 ++--
+ wp-includes/class.wp-scripts.php                   |  2 +-
+ wp-includes/class.wp-styles.php                    |  2 +-
+ wp-includes/comment-template.php                   |  4 +--
+ wp-includes/comment.php                            | 26 +++++++++---------
+ .../class-wp-customize-nav-menu-item-setting.php   | 16 +++++------
+ .../class-wp-customize-nav-menu-setting.php        |  6 ++--
+ .../class-wp-customize-selective-refresh.php       |  4 +--
+ wp-includes/date.php                               |  8 +++---
+ wp-includes/embed.php                              |  2 +-
+ wp-includes/functions.php                          |  7 ++---
+ wp-includes/l10n.php                               | 14 +++++-----
+ wp-includes/post.php                               |  6 ++--
+ wp-includes/version.php                            |  2 +-
+ 27 files changed, 124 insertions(+), 126 deletions(-)
+b13e73d05c Docs: Document more parameters and properties using typed array notation.
+6	6	wp-admin/includes/dashboard.php
+1	1	wp-admin/includes/export.php
+1	1	wp-admin/includes/media.php
+1	1	wp-admin/includes/misc.php
+9	9	wp-admin/includes/ms.php
+1	1	wp-admin/includes/plugin.php
+1	1	wp-admin/includes/post.php
+1	1	wp-admin/includes/revision.php
+2	2	wp-admin/includes/taxonomy.php
+9	9	wp-admin/includes/template.php
+5	5	wp-admin/includes/theme.php
+8	8	wp-admin/includes/upgrade.php
+4	4	wp-admin/includes/user.php
+1	1	wp-admin/maint/repair.php
+1	1	wp-admin/network/settings.php
+1	1	wp-admin/options-discussion.php
+2	2	wp-admin/options-general.php
+1	1	wp-admin/options-permalink.php
+1	1	wp-admin/plugins.php
+1	1	wp-admin/theme-install.php
+1	1	wp-admin/users.php
+18	18	wp-includes/capabilities.php
+19	19	wp-includes/category-template.php
+3	3	wp-includes/category.php
+4	4	wp-includes/class-oembed.php
+2	2	wp-includes/class-walker-nav-menu.php
+5	6	wp-includes/class-walker-page.php
+5	5	wp-includes/class-wp-comment-query.php
+8	8	wp-includes/class-wp-customize-manager.php
+2	2	wp-includes/class-wp-customize-nav-menus.php
+2	2	wp-includes/class-wp-customize-widgets.php
+1	1	wp-includes/class-wp-theme.php
+1	1	wp-includes/version.php
+ wp-admin/includes/dashboard.php              | 12 ++++-----
+ wp-admin/includes/export.php                 |  2 +-
+ wp-admin/includes/media.php                  |  2 +-
+ wp-admin/includes/misc.php                   |  2 +-
+ wp-admin/includes/ms.php                     | 18 ++++++-------
+ wp-admin/includes/plugin.php                 |  2 +-
+ wp-admin/includes/post.php                   |  2 +-
+ wp-admin/includes/revision.php               |  2 +-
+ wp-admin/includes/taxonomy.php               |  4 +--
+ wp-admin/includes/template.php               | 18 ++++++-------
+ wp-admin/includes/theme.php                  | 10 ++++----
+ wp-admin/includes/upgrade.php                | 16 ++++++------
+ wp-admin/includes/user.php                   |  8 +++---
+ wp-admin/maint/repair.php                    |  2 +-
+ wp-admin/network/settings.php                |  2 +-
+ wp-admin/options-discussion.php              |  2 +-
+ wp-admin/options-general.php                 |  4 +--
+ wp-admin/options-permalink.php               |  2 +-
+ wp-admin/plugins.php                         |  2 +-
+ wp-admin/theme-install.php                   |  2 +-
+ wp-admin/users.php                           |  2 +-
+ wp-includes/capabilities.php                 | 36 +++++++++++++-------------
+ wp-includes/category-template.php            | 38 ++++++++++++++--------------
+ wp-includes/category.php                     |  6 ++---
+ wp-includes/class-oembed.php                 |  8 +++---
+ wp-includes/class-walker-nav-menu.php        |  4 +--
+ wp-includes/class-walker-page.php            | 11 ++++----
+ wp-includes/class-wp-comment-query.php       | 10 ++++----
+ wp-includes/class-wp-customize-manager.php   | 16 ++++++------
+ wp-includes/class-wp-customize-nav-menus.php |  4 +--
+ wp-includes/class-wp-customize-widgets.php   |  4 +--
+ wp-includes/class-wp-theme.php               |  2 +-
+ wp-includes/version.php                      |  2 +-
+ 33 files changed, 128 insertions(+), 129 deletions(-)
+18169f0ae1 Docs: Revert some sneaky debugging code.
+0	2	wp-admin/includes/class-wp-ms-sites-list-table.php
+1	1	wp-includes/version.php
+ wp-admin/includes/class-wp-ms-sites-list-table.php | 2 --
+ wp-includes/version.php                            | 2 +-
+ 2 files changed, 1 insertion(+), 3 deletions(-)
+1b5d6c6971 Docs: Document many more parameters and properties using typed array notation.
+1	1	wp-admin/edit-form-advanced.php
+3	3	wp-admin/edit.php
+1	1	wp-admin/includes/bookmark.php
+1	1	wp-admin/includes/class-bulk-plugin-upgrader-skin.php
+1	1	wp-admin/includes/class-bulk-theme-upgrader-skin.php
+1	1	wp-admin/includes/class-language-pack-upgrader-skin.php
+5	4	wp-admin/includes/class-language-pack-upgrader.php
+5	5	wp-admin/includes/class-plugin-installer-skin.php
+2	2	wp-admin/includes/class-plugin-upgrader-skin.php
+1	1	wp-admin/includes/class-theme-installer-skin.php
+2	2	wp-admin/includes/class-theme-upgrader-skin.php
+2	2	wp-admin/includes/class-theme-upgrader.php
+1	1	wp-admin/includes/class-wp-comments-list-table.php
+4	4	wp-admin/includes/class-wp-list-table.php
+10	10	wp-admin/includes/class-wp-media-list-table.php
+8	6	wp-admin/includes/class-wp-ms-sites-list-table.php
+4	4	wp-admin/includes/class-wp-ms-themes-list-table.php
+6	8	wp-admin/includes/class-wp-ms-users-list-table.php
+5	5	wp-admin/includes/class-wp-plugin-install-list-table.php
+34	34	wp-admin/includes/class-wp-plugins-list-table.php
+17	17	wp-admin/includes/class-wp-posts-list-table.php
+2	2	wp-admin/includes/class-wp-screen.php
+7	7	wp-admin/includes/class-wp-site-icon.php
+6	6	wp-admin/includes/class-wp-terms-list-table.php
+3	3	wp-admin/includes/class-wp-theme-install-list-table.php
+7	7	wp-admin/includes/class-wp-users-list-table.php
+2	3	wp-includes/media.php
+1	1	wp-includes/taxonomy.php
+1	1	wp-includes/theme.php
+1	1	wp-includes/update.php
+1	1	wp-includes/version.php
+ wp-admin/edit-form-advanced.php                    |  2 +-
+ wp-admin/edit.php                                  |  6 +-
+ wp-admin/includes/bookmark.php                     |  2 +-
+ .../includes/class-bulk-plugin-upgrader-skin.php   |  2 +-
+ .../includes/class-bulk-theme-upgrader-skin.php    |  2 +-
+ .../includes/class-language-pack-upgrader-skin.php |  2 +-
+ wp-admin/includes/class-language-pack-upgrader.php |  9 +--
+ wp-admin/includes/class-plugin-installer-skin.php  | 10 ++--
+ wp-admin/includes/class-plugin-upgrader-skin.php   |  4 +-
+ wp-admin/includes/class-theme-installer-skin.php   |  2 +-
+ wp-admin/includes/class-theme-upgrader-skin.php    |  4 +-
+ wp-admin/includes/class-theme-upgrader.php         |  4 +-
+ wp-admin/includes/class-wp-comments-list-table.php |  2 +-
+ wp-admin/includes/class-wp-list-table.php          |  8 +--
+ wp-admin/includes/class-wp-media-list-table.php    | 20 +++----
+ wp-admin/includes/class-wp-ms-sites-list-table.php | 14 +++--
+ .../includes/class-wp-ms-themes-list-table.php     |  8 +--
+ wp-admin/includes/class-wp-ms-users-list-table.php | 14 ++---
+ .../class-wp-plugin-install-list-table.php         | 10 ++--
+ wp-admin/includes/class-wp-plugins-list-table.php  | 68 +++++++++++-----------
+ wp-admin/includes/class-wp-posts-list-table.php    | 34 +++++------
+ wp-admin/includes/class-wp-screen.php              |  4 +-
+ wp-admin/includes/class-wp-site-icon.php           | 14 ++---
+ wp-admin/includes/class-wp-terms-list-table.php    | 12 ++--
+ .../includes/class-wp-theme-install-list-table.php |  6 +-
+ wp-admin/includes/class-wp-users-list-table.php    | 14 ++---
+ wp-includes/media.php                              |  5 +-
+ wp-includes/taxonomy.php                           |  2 +-
+ wp-includes/theme.php                              |  2 +-
+ wp-includes/update.php                             |  2 +-
+ wp-includes/version.php                            |  2 +-
+ 31 files changed, 145 insertions(+), 145 deletions(-)
+7f36bbbdf1 Docs: Document `WP_Roles` properties with typed array notation.
+4	4	wp-includes/class-wp-roles.php
+1	1	wp-includes/version.php
+ wp-includes/class-wp-roles.php | 8 ++++----
+ wp-includes/version.php        | 2 +-
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+2ac3192a5a Build/Test Tools: Implement `assertNotWPError()` in appropriate places in the test suite.
+1	1	wp-includes/version.php
+ wp-includes/version.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+1e18087867 General: Instruct file editors not to trim trailing whitespace in markdown files.
+1	1	wp-includes/version.php
+ wp-includes/version.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+d7025e7787 Security: Loosen the admin referrer policy header value to allow the referring host to be sent from the admin area in all cases.
+5	3	wp-admin/includes/misc.php
+1	1	wp-includes/version.php
+ wp-admin/includes/misc.php | 8 +++++---
+ wp-includes/version.php    | 2 +-
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+d1d60bb22c Themes: Revert [42788] as it breaks a lot of things.
+0	2	wp-includes/theme.php
+1	1	wp-includes/version.php
+ wp-includes/theme.php   | 2 --
+ wp-includes/version.php | 2 +-
+ 2 files changed, 1 insertion(+), 3 deletions(-)
+6c09e79cc5 Database: Add the query start time to logged query data.
+1	1	wp-includes/version.php
+23	4	wp-includes/wp-db.php
+ wp-includes/version.php |  2 +-
+ wp-includes/wp-db.php   | 27 +++++++++++++++++++++++----
+ 2 files changed, 24 insertions(+), 5 deletions(-)
+ea6360b47c Themes: Ensure the theme roots cache is cleared when registering a theme directory.
+2	0	wp-includes/theme.php
+1	1	wp-includes/version.php
+ wp-includes/theme.php   | 2 ++
+ wp-includes/version.php | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+c9b07e6411 Docs: Standardise and correct documentation relating to parameters which accept plugin names.
+1	1	wp-admin/includes/class-plugin-installer-skin.php
+1	1	wp-admin/includes/class-plugin-upgrader-skin.php
+5	6	wp-admin/includes/class-plugin-upgrader.php
+4	4	wp-admin/includes/class-wp-plugins-list-table.php
+1	1	wp-admin/includes/class-wp-upgrader.php
+3	3	wp-admin/includes/file.php
+22	22	wp-admin/includes/plugin.php
+2	2	wp-includes/functions.php
+3	3	wp-includes/load.php
+1	1	wp-includes/version.php
+ wp-admin/includes/class-plugin-installer-skin.php |  2 +-
+ wp-admin/includes/class-plugin-upgrader-skin.php  |  2 +-
+ wp-admin/includes/class-plugin-upgrader.php       | 11 +++---
+ wp-admin/includes/class-wp-plugins-list-table.php |  8 ++---
+ wp-admin/includes/class-wp-upgrader.php           |  2 +-
+ wp-admin/includes/file.php                        |  6 ++--
+ wp-admin/includes/plugin.php                      | 44 +++++++++++------------
+ wp-includes/functions.php                         |  4 +--
+ wp-includes/load.php                              |  6 ++--
+ wp-includes/version.php                           |  2 +-
+ 10 files changed, 43 insertions(+), 44 deletions(-)
+087b52dced Upgrade/Install: Fix the format of the `upgrader_process_complete` actions after [42343].
+4	6	wp-admin/includes/class-core-upgrader.php
+6	8	wp-admin/includes/class-language-pack-upgrader.php
+6	8	wp-admin/includes/class-plugin-upgrader.php
+1	1	wp-includes/version.php
+ wp-admin/includes/class-core-upgrader.php          | 10 ++++------
+ wp-admin/includes/class-language-pack-upgrader.php | 14 ++++++--------
+ wp-admin/includes/class-plugin-upgrader.php        | 14 ++++++--------
+ wp-includes/version.php                            |  2 +-
+ 4 files changed, 17 insertions(+), 23 deletions(-)
+Jon Cave
+josephscott
+jrf
+jverber
+K. Adam White
+Konstantin Kovshenin
+Konstantin Obenland
+koopersmith
+Lance Willett
+lancewillett
+laurelfulford
+Mark Jaquith
+markjaquith
+Matias Ventura
+matt
+Matt Mullenweg
+Matt Thomas
+Mel Choyce
+Michael Adams
+Michael Arestad
+michelvaldrighi
+Mike Schroder
+51b0a3cd28 Media: Correctly allow changing PDF thumbnail crop value.
+1	1	wp-admin/includes/image.php
+1	1	wp-includes/version.php
+ wp-admin/includes/image.php | 2 +-
+ wp-includes/version.php     | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+mikelittle
+nacin
+nbachiyski
+Nikolay Bachiyski
+omarreiss
+Pascal Birchler
+PeteMall
+Peter Westwood
+Peter Wilson
+potbot
+Rachel Baker
+rboren
+rob1n
+ryan
+Ryan Boren
+Ryan McCue
+saxmatt
+Scott Taylor
+scribu
+Sergey Biryukov
+9a11487e22 Taxonomy: In `category_description()`, don't pass the `$taxonomy` parameter to `term_description()`.
+1	1	wp-includes/category-template.php
+1	1	wp-includes/version.php
+ wp-includes/category-template.php | 2 +-
+ wp-includes/version.php           | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+2f0f413aa5 Twenty Ten: Restore `max-width` on `.wp-caption`.
+1	2	wp-content/themes/twentyten/style.css
+1	1	wp-includes/version.php
+ wp-content/themes/twentyten/style.css | 3 +--
+ wp-includes/version.php               | 2 +-
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+fa47925a9a Twenty Seventeen: Bump version and update the changelog.
+6	1	wp-content/themes/twentyseventeen/README.txt
+1	1	wp-content/themes/twentyseventeen/style.css
+1	1	wp-includes/version.php
+ wp-content/themes/twentyseventeen/README.txt | 7 ++++++-
+ wp-content/themes/twentyseventeen/style.css  | 2 +-
+ wp-includes/version.php                      | 2 +-
+ 3 files changed, 8 insertions(+), 3 deletions(-)
+0e9549d424 Formatting: Permit use of `text-transform` in `safecss_filter_attr()`.
+3	1	wp-includes/kses.php
+1	1	wp-includes/version.php
+ wp-includes/kses.php    | 4 +++-
+ wp-includes/version.php | 2 +-
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+ff314fd156 Media: Pass EXIF data to the `wp_read_image_metadata` filter.
+5	1	wp-admin/includes/image.php
+1	1	wp-includes/version.php
+ wp-admin/includes/image.php | 6 +++++-
+ wp-includes/version.php     | 2 +-
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+079cfd60a9 Media: In `wp_read_image_metadata()`, rename `$sourceImageType` variable to `$image_type` to match coding standards.
+9	7	wp-admin/includes/image.php
+1	1	wp-includes/version.php
+ wp-admin/includes/image.php | 16 +++++++++-------
+ wp-includes/version.php     |  2 +-
+ 2 files changed, 10 insertions(+), 8 deletions(-)
+0895f04705 Docs: Correct method reference in a comment for `Bulk_Plugin_Upgrader_Skin::$plugin_info`.
+2	2	wp-admin/includes/class-bulk-plugin-upgrader-skin.php
+1	1	wp-includes/version.php
+ wp-admin/includes/class-bulk-plugin-upgrader-skin.php | 4 ++--
+ wp-includes/version.php                               | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+61a0745df8 Media: On Media Settings screen, make the pairs of labels and inputs always stacked vertically, on both mobile and desktop screens.
+0	17	wp-admin/css/common-rtl.css
+1	1	wp-admin/css/common-rtl.min.css
+0	17	wp-admin/css/common.css
+1	1	wp-admin/css/common.min.css
+9	1	wp-admin/css/forms-rtl.css
+1	1	wp-admin/css/forms-rtl.min.css
+9	1	wp-admin/css/forms.css
+1	1	wp-admin/css/forms.min.css
+1	1	wp-admin/css/login-rtl.min.css
+1	1	wp-admin/css/login.min.css
+5	3	wp-admin/options-media.php
+1	1	wp-includes/version.php
+ wp-admin/css/common-rtl.css     | 17 -----------------
+ wp-admin/css/common-rtl.min.css |  2 +-
+ wp-admin/css/common.css         | 17 -----------------
+ wp-admin/css/common.min.css     |  2 +-
+ wp-admin/css/forms-rtl.css      | 10 +++++++++-
+ wp-admin/css/forms-rtl.min.css  |  2 +-
+ wp-admin/css/forms.css          | 10 +++++++++-
+ wp-admin/css/forms.min.css      |  2 +-
+ wp-admin/css/login-rtl.min.css  |  2 +-
+ wp-admin/css/login.min.css      |  2 +-
+ wp-admin/options-media.php      |  8 +++++---
+ wp-includes/version.php         |  2 +-
+ 12 files changed, 30 insertions(+), 46 deletions(-)
+8a701e5b3f Formatting: Avoid a PHP 7.2 warning in `wp_kses_attr()` when one of `$allowedtags` elements is an uncountable value.
+2	1	wp-includes/kses.php
+1	1	wp-includes/version.php
+ wp-includes/kses.php    | 3 ++-
+ wp-includes/version.php | 2 +-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+81500e50ef Link Template: Apply `get_{$adjacent}_post_excluded_terms` filter to an empty `excluded_terms` parameter as well.
+12	12	wp-includes/link-template.php
+1	1	wp-includes/version.php
+ wp-includes/link-template.php | 24 ++++++++++++------------
+ wp-includes/version.php       |  2 +-
+ 2 files changed, 13 insertions(+), 13 deletions(-)
+4848a09b35 I18N: Use the actual placeholder instead of a number in translator comments if the corresponding string does not use numbered placeholders.
+4	4	wp-admin/admin-header.php
+1	1	wp-admin/edit-comments.php
+4	4	wp-admin/includes/class-bulk-upgrader-skin.php
+1	1	wp-admin/includes/class-language-pack-upgrader.php
+37	10	wp-admin/includes/class-wp-plugin-install-list-table.php
+52	9	wp-admin/includes/class-wp-theme-install-list-table.php
+4	4	wp-admin/includes/media.php
+9	9	wp-admin/includes/meta-boxes.php
+4	4	wp-admin/includes/ms.php
+10	10	wp-admin/includes/network.php
+3	3	wp-admin/includes/template.php
+1	1	wp-admin/includes/user.php
+1	1	wp-admin/maint/repair.php
+1	1	wp-admin/network/settings.php
+1	1	wp-admin/plugins.php
+2	2	wp-admin/revision.php
+2	2	wp-admin/setup-config.php
+1	1	wp-admin/user-edit.php
+2	2	wp-includes/class-wp-customize-nav-menus.php
+1	1	wp-includes/class-wp-http-curl.php
+1	1	wp-includes/class-wp-http-streams.php
+2	2	wp-includes/comment-template.php
+1	1	wp-includes/customize/class-wp-customize-nav-menu-item-control.php
+3	3	wp-includes/feed-atom-comments.php
+3	3	wp-includes/feed-rss2-comments.php
+6	6	wp-includes/formatting.php
+8	8	wp-includes/general-template.php
+1	1	wp-includes/load.php
+2	1	wp-includes/ms-functions.php
+31	20	wp-includes/pluggable.php
+1	1	wp-includes/taxonomy.php
+1	1	wp-includes/theme.php
+3	3	wp-includes/update.php
+2	2	wp-includes/user.php
+1	1	wp-includes/version.php
+1	1	wp-includes/widgets/class-wp-widget-media-image.php
+1	1	wp-includes/wp-db.php
+1	1	wp-links-opml.php
+1	1	wp-login.php
+ wp-admin/admin-header.php                          |  8 +--
+ wp-admin/edit-comments.php                         |  2 +-
+ wp-admin/includes/class-bulk-upgrader-skin.php     |  8 +--
+ wp-admin/includes/class-language-pack-upgrader.php |  2 +-
+ .../class-wp-plugin-install-list-table.php         | 47 +++++++++++++----
+ .../includes/class-wp-theme-install-list-table.php | 61 ++++++++++++++++++----
+ wp-admin/includes/media.php                        |  8 +--
+ wp-admin/includes/meta-boxes.php                   | 18 +++----
+ wp-admin/includes/ms.php                           |  8 +--
+ wp-admin/includes/network.php                      | 20 +++----
+ wp-admin/includes/template.php                     |  6 +--
+ wp-admin/includes/user.php                         |  2 +-
+ wp-admin/maint/repair.php                          |  2 +-
+ wp-admin/network/settings.php                      |  2 +-
+ wp-admin/plugins.php                               |  2 +-
+ wp-admin/revision.php                              |  4 +-
+ wp-admin/setup-config.php                          |  4 +-
+ wp-admin/user-edit.php                             |  2 +-
+ wp-includes/class-wp-customize-nav-menus.php       |  4 +-
+ wp-includes/class-wp-http-curl.php                 |  2 +-
+ wp-includes/class-wp-http-streams.php              |  2 +-
+ wp-includes/comment-template.php                   |  4 +-
+ .../class-wp-customize-nav-menu-item-control.php   |  2 +-
+ wp-includes/feed-atom-comments.php                 |  6 +--
+ wp-includes/feed-rss2-comments.php                 |  6 +--
+ wp-includes/formatting.php                         | 12 ++---
+ wp-includes/general-template.php                   | 16 +++---
+ wp-includes/load.php                               |  2 +-
+ wp-includes/ms-functions.php                       |  3 +-
+ wp-includes/pluggable.php                          | 51 +++++++++++-------
+ wp-includes/taxonomy.php                           |  2 +-
+ wp-includes/theme.php                              |  2 +-
+ wp-includes/update.php                             |  6 +--
+ wp-includes/user.php                               |  4 +-
+ wp-includes/version.php                            |  2 +-
+ .../widgets/class-wp-widget-media-image.php        |  2 +-
+ wp-includes/wp-db.php                              |  2 +-
+ wp-links-opml.php                                  |  2 +-
+ wp-login.php                                       |  2 +-
+ 39 files changed, 211 insertions(+), 129 deletions(-)
+fab939595d Docs: Fix typo in a comment in `WP_Community_Events::trim_events()`.
+1	1	wp-admin/includes/class-wp-community-events.php
+1	1	wp-includes/version.php
+ wp-admin/includes/class-wp-community-events.php | 2 +-
+ wp-includes/version.php                         | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+15e969be8d Docs: Add missing brace in `auto_update_{$type}` filter DocBlock.
+1	1	wp-admin/includes/class-wp-automatic-updater.php
+1	1	wp-includes/version.php
+ wp-admin/includes/class-wp-automatic-updater.php | 2 +-
+ wp-includes/version.php                          | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+8bab745586 General: In `wp_debug_backtrace_summary()`, check if `$call['args']` is defined to avoid a PHP notice.
+2	1	wp-includes/functions.php
+1	1	wp-includes/version.php
+ wp-includes/functions.php | 3 ++-
+ wp-includes/version.php   | 2 +-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+f700ac6075 Docs: Use `WP_Term` instead of generic `object` type for the `$tag` parameter in `wp-admin/edit-tag-form.php` hook docs.
+18	18	wp-admin/edit-tag-form.php
+1	1	wp-includes/version.php
+ wp-admin/edit-tag-form.php | 36 ++++++++++++++++++------------------
+ wp-includes/version.php    |  2 +-
+ 2 files changed, 19 insertions(+), 19 deletions(-)
+4e9c3f916f Docs: Fix typos in `_wp_emoji_list()` description.
+2	2	wp-includes/formatting.php
+1	1	wp-includes/version.php
+ wp-includes/formatting.php | 4 ++--
+ wp-includes/version.php    | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+0b799bd6a7 General: In `wp_debug_backtrace_summary()`, capture hook name for `do_action_ref_array()` and `apply_filters_ref_array()` as well.
+1	1	wp-includes/functions.php
+1	1	wp-includes/version.php
+ wp-includes/functions.php | 2 +-
+ wp-includes/version.php   | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+c46a518330 Tests: Skip symlinked theme file tests if `symlink()` is not available, e.g. in PHP 5.2.x on Windows.
+1	1	wp-includes/version.php
+ wp-includes/version.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+051dd178b3 Tests: Skip symlinked theme file tests if the links could not be created.
+1	1	wp-includes/version.php
+ wp-includes/version.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+eaf4f346fd Docs: Improve documentation for meta capability filters.
+18	20	wp-includes/capabilities.php
+1	1	wp-includes/version.php
+ wp-includes/capabilities.php | 38 ++++++++++++++++++--------------------
+ wp-includes/version.php      |  2 +-
+ 2 files changed, 19 insertions(+), 21 deletions(-)
+996efe8f6e Filesystem API: Avoid an infinite loop in `wp_mkdir_p()` when trying to determine the parent folder with `open_basedir` restriction in effect.
+1	1	wp-includes/functions.php
+1	1	wp-includes/version.php
+ wp-includes/functions.php | 2 +-
+ wp-includes/version.php   | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+c1897645a2 General: In `wp_debug_backtrace_summary()`, normalize paths before replacement for better cross–platform compatibility.
+12	1	wp-includes/functions.php
+1	1	wp-includes/version.php
+ wp-includes/functions.php | 13 ++++++++++++-
+ wp-includes/version.php   |  2 +-
+ 2 files changed, 13 insertions(+), 2 deletions(-)
+902232ffec Tests: Correct assertion in `Tests_WP_Customize_Setting::test_constructor_with_args()`.
+1	1	wp-includes/version.php
+ wp-includes/version.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+e2707d57f9 Docs: Improve JSDoc for `wp-includes/js/media/controllers/gallery-add.js`.
+1	1	wp-includes/version.php
+ wp-includes/version.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+fdc4f68678 Docs: Remove copy/pasted default value description for `$type` in `WP_Customize_Manager::add_setting()`.
+0	1	wp-includes/class-wp-customize-manager.php
+1	1	wp-includes/version.php
+ wp-includes/class-wp-customize-manager.php | 1 -
+ wp-includes/version.php                    | 2 +-
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+ef33f565b1 Docs: Improve documentation for `add_meta_boxes` and `do_meta_boxes` actions.
+8	5	wp-admin/edit-form-advanced.php
+1	1	wp-includes/version.php
+ wp-admin/edit-form-advanced.php | 13 ++++++++-----
+ wp-includes/version.php         |  2 +-
+ 2 files changed, 9 insertions(+), 6 deletions(-)
+24f43065b9 Docs: Document globals in `wp-admin/revision.php` as `@global` instead of `@param`.
+7	6	wp-admin/revision.php
+1	1	wp-includes/version.php
+ wp-admin/revision.php   | 13 +++++++------
+ wp-includes/version.php |  2 +-
+ 2 files changed, 8 insertions(+), 7 deletions(-)
+084b48e1ba Help/About: Adjust capability checks formatting in help text on Dashboard screen for readability and consistency with similar checks in other files.
+6	1	wp-admin/index.php
+1	1	wp-includes/version.php
+ wp-admin/index.php      | 7 ++++++-
+ wp-includes/version.php | 2 +-
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+24f13abf63 Help/About: Remove popular plugins feed reference from help text on Dashboard screen, no longer relevant since [40607].
+5	13	wp-admin/index.php
+1	1	wp-includes/version.php
+ wp-admin/index.php      | 18 +++++-------------
+ wp-includes/version.php |  2 +-
+ 2 files changed, 6 insertions(+), 14 deletions(-)
+31a3083c28 Help/About: Update "WordPress News" widget references in help text and inline documentation.
+9	9	wp-admin/includes/dashboard.php
+2	2	wp-admin/index.php
+1	1	wp-includes/version.php
+ wp-admin/includes/dashboard.php | 18 +++++++++---------
+ wp-admin/index.php              |  4 ++--
+ wp-includes/version.php         |  2 +-
+ 3 files changed, 12 insertions(+), 12 deletions(-)
+5596017878 Media: Recognize `.ico` files as displayable images on PHP 5.3+ and allow attachment meta data to be generated for them.
+5	0	wp-admin/includes/image.php
+1	1	wp-includes/version.php
+ wp-admin/includes/image.php | 5 +++++
+ wp-includes/version.php     | 2 +-
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+e451dfac9e Help/About: Correct the number of most recent drafts in help text on Dashboard screen.
+1	1	wp-admin/index.php
+1	1	wp-includes/version.php
+ wp-admin/index.php      | 2 +-
+ wp-includes/version.php | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+3385d5b2de Docs: Expand `delete_theme()` return value, fix typo in `delete_plugins()` return value.
+1	1	wp-admin/includes/plugin.php
+4	3	wp-admin/includes/theme.php
+1	1	wp-includes/version.php
+ wp-admin/includes/plugin.php | 2 +-
+ wp-admin/includes/theme.php  | 7 ++++---
+ wp-includes/version.php      | 2 +-
+ 3 files changed, 6 insertions(+), 5 deletions(-)
+58592b64dc Docs: Use consistent description for `$wp_filesystem` global.
+6	6	wp-admin/includes/ajax-actions.php
+1	1	wp-admin/includes/class-core-upgrader.php
+1	1	wp-admin/includes/class-language-pack-upgrader.php
+2	2	wp-admin/includes/class-plugin-upgrader.php
+1	1	wp-admin/includes/class-theme-upgrader.php
+4	4	wp-admin/includes/class-wp-upgrader.php
+5	5	wp-admin/includes/file.php
+1	1	wp-admin/includes/plugin.php
+1	1	wp-admin/includes/theme.php
+1	1	wp-admin/includes/update-core.php
+1	1	wp-admin/update-core.php
+1	1	wp-includes/version.php
+ wp-admin/includes/ajax-actions.php                 | 12 ++++++------
+ wp-admin/includes/class-core-upgrader.php          |  2 +-
+ wp-admin/includes/class-language-pack-upgrader.php |  2 +-
+ wp-admin/includes/class-plugin-upgrader.php        |  4 ++--
+ wp-admin/includes/class-theme-upgrader.php         |  2 +-
+ wp-admin/includes/class-wp-upgrader.php            |  8 ++++----
+ wp-admin/includes/file.php                         | 10 +++++-----
+ wp-admin/includes/plugin.php                       |  2 +-
+ wp-admin/includes/theme.php                        |  2 +-
+ wp-admin/includes/update-core.php                  |  2 +-
+ wp-admin/update-core.php                           |  2 +-
+ wp-includes/version.php                            |  2 +-
+ 12 files changed, 25 insertions(+), 25 deletions(-)
+179bec1306 Docs: Clarify return values and improve DocBlock formatting for `verify_file_md5()`, `unzip_file()`, `_unzip_file_ziparchive()`, `_unzip_file_pclzip()`, `copy_dir()`, `WP_Filesystem()`.
+46	32	wp-admin/includes/file.php
+1	1	wp-includes/version.php
+ wp-admin/includes/file.php | 78 +++++++++++++++++++++++++++-------------------
+ wp-includes/version.php    |  2 +-
+ 2 files changed, 47 insertions(+), 33 deletions(-)
+3c8ae81018 Docs: Clarify `download_url()` return value, improve DocBlock formatting.
+6	5	wp-admin/includes/file.php
+1	1	wp-includes/version.php
+ wp-admin/includes/file.php | 11 ++++++-----
+ wp-includes/version.php    |  2 +-
+ 2 files changed, 7 insertions(+), 6 deletions(-)
+7b7ca428f3 Docs: Clarify that `wp_update_user()` accepts an array as `$userdata` argument.
+1	1	wp-includes/user.php
+1	1	wp-includes/version.php
+ wp-includes/user.php    | 2 +-
+ wp-includes/version.php | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+86c3c7e1c9 Filesystem API: Allow `download_url()` to return the response code and body on error as an additional `WP_Error` object data.
+25	2	wp-admin/includes/file.php
+1	1	wp-includes/version.php
+ wp-admin/includes/file.php | 27 +++++++++++++++++++++++++--
+ wp-includes/version.php    |  2 +-
+ 2 files changed, 26 insertions(+), 3 deletions(-)
+Tammie Lister
+tellyworth
+uid26904
+westi
+Weston Ruter
+wpmuguru
+youknowriad

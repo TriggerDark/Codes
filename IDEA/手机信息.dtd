@@ -1,0 +1,6 @@
+<!ELEMENT 手机类型 (品牌*) >
+<!ELEMENT 品牌 (#PCDATA|机型)* >
+<!ELEMENT 机型 (#PCDATA|内存)* >
+<!ELEMENT 内存 (#PCDATA|价格)* >
+<!ELEMENT 价格 (#PCDATA) >
+<!ATTLIST 价格 单位 CDATA "元">

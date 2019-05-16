@@ -1,0 +1,170 @@
+hua
+j0271
+qyx-8013；
+spx-8038
+3a58673 CPD投放数量修改
+2	2	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/utils/DeliverySheetParser.java
+ .../dtdream/egroup/chery/channel/web/utils/DeliverySheetParser.java   | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+a4187f7 修改Redis配置
+5	5	chery-channel-application/src/main/resources/application-prod.yml
+2	2	chery-channel-application/src/main/resources/application-sit.yml
+ .../src/main/resources/application-prod.yml                    | 10 +++++-----
+ .../src/main/resources/application-sit.yml                     |  4 ++--
+ 2 files changed, 7 insertions(+), 7 deletions(-)
+85c1807 导入投放时CPD投放数量不设置
+14	6	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/utils/DeliverySheetParser.java
+ .../chery/channel/web/utils/DeliverySheetParser.java | 20 ++++++++++++++------
+ 1 file changed, 14 insertions(+), 6 deletions(-)
+5336fb9 正式环境添加接口权限
+94	64	chery-channel-application/src/main/resources/application-prod.yml
+ .../src/main/resources/application-prod.yml        | 158 ++++++++++++---------
+ 1 file changed, 94 insertions(+), 64 deletions(-)
+4b1b18b 健康检查
+61	0	pom.xml
+ pom.xml | 61 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 61 insertions(+)
+c8c1e8e 渠道中心三期稳定版
+1	0	chery-channel2c-application/src/main/resources/front/static/sdk-bundle.js
+119	0	chery-channel2c-web/src/main/java/com/dtdream/egroup/chery/channel2c/web/controller/ChannelDeliveryController.java
+38	0	chery-channel2c-web/src/main/java/com/dtdream/egroup/chery/channel2c/web/controller/HealthController.java
+0	61	pom.xml
+ .../src/main/resources/front/static/sdk-bundle.js  |   1 +
+ .../web/controller/ChannelDeliveryController.java  | 119 +++++++++++++++++++++
+ .../channel2c/web/controller/HealthController.java |  38 +++++++
+ pom.xml                                            |  61 -----------
+ 4 files changed, 158 insertions(+), 61 deletions(-)
+a8c7180 上传导入模板
+-	-	chery-channel-application/src/main/resources/excelTemplate/all_template.xls
+-	-	chery-channel-application/src/main/resources/excelTemplate/delivery_template.xls
+-	-	chery-channel-application/src/main/resources/excelTemplate/position_template.xls
+ .../src/main/resources/excelTemplate/all_template.xls  | Bin 0 -> 349184 bytes
+ .../main/resources/excelTemplate/delivery_template.xls | Bin 0 -> 404992 bytes
+ .../main/resources/excelTemplate/position_template.xls | Bin 0 -> 33280 bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+3ca1178 渠道中心三期稳定版
+1	1	chery-channel-application/pom.xml
+18	2	chery-channel-application/src/main/resources/application-dev.yml
+18	2	chery-channel-application/src/main/resources/application-sit.yml
+-	-	chery-channel-application/src/main/resources/excelTemplate/all_template.xlsx
+-	-	chery-channel-application/src/main/resources/excelTemplate/delivery_template.xlsx
+-	-	chery-channel-application/src/main/resources/excelTemplate/position_template.xlsx
+23	1	chery-channel-application/src/main/resources/messages_en.properties
+23	1	chery-channel-application/src/main/resources/messages_zh.properties
+6	0	chery-channel-application/src/main/resources/spring/rpc.yml
+19	2	chery-channel-web/pom.xml
+9	7	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelCategoryController.java
+4	4	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelConstantCodeController.java
+210	97	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelDeliveryController.java
+75	29	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelFileController.java
+11	11	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelFormController.java
+4	4	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelHistoryController.java
+11	11	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelMediaCategoryController.java
+15	18	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelMediaController.java
+8	10	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelPageController.java
+168	26	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelPositionController.java
+91	0	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelPositionHistoryController.java
+11	11	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelSizeController.java
+17	21	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelTerminalController.java
+189	0	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelTurnsNumberController.java
+130	22	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/utils/CommonExcelExportUtil.java
+9	3	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/utils/DateUtil.java
+533	175	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/utils/DeliverySheetParser.java
+44	20	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/utils/ExcelImportUtil.java
+209	80	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/utils/PositionSheetParser.java
+18	4	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/utils/SheetParser.java
+2	3	chery-channel2c-application/pom.xml
+1	1	chery-channel2c-application/src/main/java/com/dtdream/egroup/chery/application/Channel2cApplication.java
+7	3	chery-channel2c-application/src/main/java/com/dtdream/egroup/chery/application/filter/ReactFilter.java
+11	13	chery-channel2c-application/src/main/resources/application-dev.yml
+2	21	chery-channel2c-application/src/main/resources/application-prod.yml
+2	21	chery-channel2c-application/src/main/resources/application-sit.yml
+1	1	chery-channel2c-application/src/main/resources/bootstrap.yml
+2	0	chery-channel2c-application/src/main/resources/spring/rpc.yml
+9	5	chery-channel2c-web/pom.xml
+1	1	chery-channel2c-web/src/main/java/com/dtdream/egroup/chery/channel2c/web/controller/ChannelCommonsController.java
+1	1	chery-channel2c-web/src/main/java/com/dtdream/egroup/chery/channel2c/web/utils/DateUtil.java
+42	25	pom.xml
+ chery-channel-application/pom.xml                  |   2 +-
+ .../src/main/resources/application-dev.yml         |  20 +-
+ .../src/main/resources/application-sit.yml         |  20 +-
+ .../main/resources/excelTemplate/all_template.xlsx | Bin 73110 -> 335119 bytes
+ .../resources/excelTemplate/delivery_template.xlsx | Bin 21047 -> 539429 bytes
+ .../resources/excelTemplate/position_template.xlsx | Bin 13487 -> 17626 bytes
+ .../src/main/resources/messages_en.properties      |  24 +-
+ .../src/main/resources/messages_zh.properties      |  24 +-
+ .../src/main/resources/spring/rpc.yml              |   6 +
+ chery-channel-web/pom.xml                          |  21 +-
+ .../web/controller/ChannelCategoryController.java  |  16 +-
+ .../controller/ChannelConstantCodeController.java  |   8 +-
+ .../web/controller/ChannelDeliveryController.java  | 307 ++++++---
+ .../web/controller/ChannelFileController.java      | 104 ++-
+ .../web/controller/ChannelFormController.java      |  22 +-
+ .../web/controller/ChannelHistoryController.java   |   8 +-
+ .../controller/ChannelMediaCategoryController.java |  22 +-
+ .../web/controller/ChannelMediaController.java     |  33 +-
+ .../web/controller/ChannelPageController.java      |  18 +-
+ .../web/controller/ChannelPositionController.java  | 194 +++++-
+ .../ChannelPositionHistoryController.java          |  91 +++
+ .../web/controller/ChannelSizeController.java      |  22 +-
+ .../web/controller/ChannelTerminalController.java  |  38 +-
+ .../controller/ChannelTurnsNumberController.java   | 189 ++++++
+ .../channel/web/utils/CommonExcelExportUtil.java   | 152 ++++-
+ .../egroup/chery/channel/web/utils/DateUtil.java   |  12 +-
+ .../channel/web/utils/DeliverySheetParser.java     | 708 ++++++++++++++++-----
+ .../chery/channel/web/utils/ExcelImportUtil.java   |  64 +-
+ .../channel/web/utils/PositionSheetParser.java     | 289 ++++++---
+ .../chery/channel/web/utils/SheetParser.java       |  22 +-
+ chery-channel2c-application/pom.xml                |   5 +-
+ .../chery/application/Channel2cApplication.java    |   2 +-
+ .../chery/application/filter/ReactFilter.java      |  10 +-
+ .../src/main/resources/application-dev.yml         |  24 +-
+ .../src/main/resources/application-prod.yml        |  23 +-
+ .../src/main/resources/application-sit.yml         |  23 +-
+ .../src/main/resources/bootstrap.yml               |   2 +-
+ .../src/main/resources/spring/rpc.yml              |   2 +
+ chery-channel2c-web/pom.xml                        |  14 +-
+ .../web/controller/ChannelCommonsController.java   |   2 +-
+ .../egroup/chery/channel2c/web/utils/DateUtil.java |   2 +-
+ pom.xml                                            |  67 +-
+ 42 files changed, 1955 insertions(+), 657 deletions(-)
+31b3d34 轮播数修改
+7	7	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelTurnsNumberController.java
+ .../web/controller/ChannelTurnsNumberController.java       | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+36cfeb5 配置文件添加轮播数接口
+2	0	chery-channel-application/src/main/resources/spring/rpc.yml
+ chery-channel-application/src/main/resources/spring/rpc.yml | 2 ++
+ 1 file changed, 2 insertions(+)
+1333d45 轮播数
+11	1	chery-channel-application/src/main/resources/messages_en.properties
+11	1	chery-channel-application/src/main/resources/messages_zh.properties
+189	0	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelTurnsNumberController.java
+ .../src/main/resources/messages_en.properties      |  12 +-
+ .../src/main/resources/messages_zh.properties      |  12 +-
+ .../controller/ChannelTurnsNumberController.java   | 189 +++++++++++++++++++++
+ 3 files changed, 211 insertions(+), 2 deletions(-)
+wx-5039
+ycc
+yucc
+7cf3e79 1.新增P3C检查 2.新增spotbugs检查
+61	0	pom.xml
+ pom.xml | 61 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 61 insertions(+)
+周涵英
+5116e7e Revert "轮播数"
+1	11	chery-channel-application/src/main/resources/messages_en.properties
+1	11	chery-channel-application/src/main/resources/messages_zh.properties
+0	189	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelTurnsNumberController.java
+ .../src/main/resources/messages_en.properties      |  12 +-
+ .../src/main/resources/messages_zh.properties      |  12 +-
+ .../controller/ChannelTurnsNumberController.java   | 189 ---------------------
+ 3 files changed, 2 insertions(+), 211 deletions(-)
+03ae9ec Revert "配置文件添加轮播数接口"
+0	2	chery-channel-application/src/main/resources/spring/rpc.yml
+ chery-channel-application/src/main/resources/spring/rpc.yml | 2 --
+ 1 file changed, 2 deletions(-)
+fd1d4d9 Revert "轮播数修改"
+7	7	chery-channel-web/src/main/java/com/dtdream/egroup/chery/channel/web/controller/ChannelTurnsNumberController.java
+ .../web/controller/ChannelTurnsNumberController.java       | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
